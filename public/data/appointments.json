@@ -1,0 +1,114 @@
+{
+    "appointments": [
+        {
+            "id": 1,
+            "firstName": "Name",
+            "lastName": "Namerson",
+            "date": "2026-01-05",
+            "time": "10:00 AM",
+            "type": "Checkup",
+            "notes": "None"
+        },
+        {
+            "id": 2,
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "date": "2026-01-05",
+            "time": "10:30 AM",
+            "type": "Cleaning",
+            "notes": "Patient prefers fluoride treatment"
+        },
+        {
+            "id": 3,
+            "firstName": "Marcus",
+            "lastName": "Chen",
+            "date": "2026-01-07",
+            "time": "11:00 AM",
+            "type": "Consultation",
+            "notes": "New patient, referred by Dr. Patel"
+        },
+        {
+            "id": 4,
+            "firstName": "Emily",
+            "lastName": "Rodriguez",
+            "date": "2026-01-08",
+            "time": "11:30 AM",
+            "type": "Follow-up",
+            "notes": "Post-surgery review, check healing progress"
+        },
+        {
+            "id": 5,
+            "firstName": "James",
+            "lastName": "O'Brien",
+            "date": "2026-01-12",
+            "time": "1:00 PM",
+            "type": "X-Ray",
+            "notes": "Complains of pain in lower left molar"
+        },
+        {
+            "id": 6,
+            "firstName": "Aisha",
+            "lastName": "Patel",
+            "date": "2026-01-12",
+            "time": "1:30 PM",
+            "type": "Checkup",
+            "notes": "Annual wellness exam",
+            "isMandatory": true,
+            "mandatoryMessage": "Cannot cancel mandatory appointment"
+        },
+        {
+            "id": 7,
+            "firstName": "David",
+            "lastName": "Kim",
+            "date": "2026-01-15",
+            "time": "2:00 PM",
+            "type": "Filling",
+            "notes": "Cavity on upper right premolar"
+        },
+        {
+            "id": 8,
+            "firstName": "Olivia",
+            "lastName": "Thompson",
+            "date": "2026-01-19",
+            "time": "2:30 PM",
+            "type": "Consultation",
+            "notes": "Interested in orthodontic options"
+        },
+        {
+            "id": 9,
+            "firstName": "Robert",
+            "lastName": "Garcia",
+            "date": "2026-01-20",
+            "time": "3:00 PM",
+            "type": "Cleaning",
+            "notes": "Sensitive gums, use gentle technique"
+        },
+        {
+            "id": 10,
+            "firstName": "Mei",
+            "lastName": "Tanaka",
+            "date": "2026-01-22",
+            "time": "3:30 PM",
+            "type": "Emergency",
+            "notes": "Chipped front tooth, needs bonding"
+        },
+        {
+            "id": 11,
+            "firstName": "Carlos",
+            "lastName": "Rivera",
+            "date": "2026-01-26",
+            "time": "4:00 PM",
+            "type": "Follow-up",
+            "notes": "Root canal recovery check"
+        },
+        {
+            "id": 12,
+            "firstName": "Hannah",
+            "lastName": "Williams",
+            "date": "2026-01-29",
+            "time": "4:30 PM",
+            "type": "Checkup",
+            "notes": "None"
+        }
+    ]
+}
