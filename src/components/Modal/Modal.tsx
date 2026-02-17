@@ -1,9 +1,5 @@
-import {
-  Dialog,
-  Content,
-  DialogContainer,
-} from "@adobe/react-spectrum";
-import type { ReactNode } from "react";
+import { Dialog, Content, DialogContainer } from "@adobe/react-spectrum";
+import { Component, type ReactNode } from "react";
 
 export interface ModalProps {
   isOpen: boolean;
@@ -11,14 +7,17 @@ export interface ModalProps {
   children: ReactNode;
 }
 
-const Modal = ({ isOpen, setOpen, children }: ModalProps) => {
-  return (
-    <DialogContainer isDismissable onDismiss={() => setOpen(false)}>
-      {isOpen && (
-        <Dialog>{children}</Dialog>
-      )}
-    </DialogContainer>
-  );
-};
+class Modal extends Component<ModalProps> {
+  render() {
+    return (
+      <DialogContainer
+        isDismissable
+        onDismiss={() => this.props.setOpen(false)}
+      >
+        {this.props.isOpen && <Dialog>{this.props.children}</Dialog>}
+      </DialogContainer>
+    );
+  }
+}
 
 export default Modal;
