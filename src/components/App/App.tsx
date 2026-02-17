@@ -50,6 +50,9 @@ function App() {
 
   return (
     <Provider theme={defaultTheme}>
+      <header>
+        <h1>Dr. Smith's Dental Office</h1>
+      </header>
       <aside>
         <Calendar
           aria-label={`Appointments on ${date}`}
